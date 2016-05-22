@@ -65,7 +65,7 @@ display: block;
 }
 
 .game-board {
-    font-family: icon-font;
+    font-family: "fa-gitlab";
     padding: 2em;
 }
 
