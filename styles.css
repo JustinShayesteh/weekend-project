@@ -11,15 +11,19 @@
 input {
  width:200px;
  height: 200px;
- display: none;
+ z-index: 100;
 
 }
 
-input:checked +.game-tile {
- background: lightcoral;
- transform: rotateY(180deg);
- z-index: -1
-}
+/*input:checked +.game-tile {*/
+ /*background: lightcoral;*/
+ /*transform: rotateY(180deg);*/
+ /*z-index: -1;*/
+/*}*/
+
+/*input:checked +.game-icon {*/
+  /*visibility: visible;*/
+/*}*/
 
 .icon {
  color: white;
@@ -136,4 +140,33 @@ span{
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    /*visibility: hidden;*/
+}
+
+input:checked +.game-icon {
+  visibility: visible;
+}
+
+input:active{
+  background-color: yellow;
+}
+
+.game-detail-health{
+  float: left;
+  padding-left: 100px;
+
+}
+
+.game-detail-time{
+  float: right;
+  padding-right: 100px;
+}
+
+.ico{
+
+}
+
+.main-header{
+  font-size: 5em;
+
 }
