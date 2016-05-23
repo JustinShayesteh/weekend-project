@@ -4,7 +4,9 @@
  height: 200px;
  background: steelblue;
  display: block;
- transition: background 1s, transform 1s;
+ transition: background 2s, transform 2s;
+ transform: rotateY(180deg);
+
 
 }
 
@@ -12,7 +14,6 @@ input {
  width:200px;
  height: 200px;
  z-index: 100;
-
 }
 
 /*input:checked +.game-tile {*/
@@ -146,7 +147,7 @@ span{
 
 input:checked +.game-icon {
   visibility: visible;
-  
+
 }
 
 input:active{
