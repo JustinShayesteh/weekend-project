@@ -146,6 +146,7 @@ span{
 
 input:checked +.game-icon {
   visibility: visible;
+  
 }
 
 input:active{
